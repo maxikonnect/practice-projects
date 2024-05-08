@@ -1,0 +1,26 @@
+/* Universal box-sizing and font-family */
+html {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+
+/* Inherit box-sizing for all elements and reset margins/padding */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+/* Styling for the body */
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin: 0 auto; /* Centering horizontally */
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Needed for positioning footer */
+    width: 100%;
+}
