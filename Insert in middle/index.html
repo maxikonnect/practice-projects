@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert In Middle</title>
+</head>
+<body>
+    <h1>Create a function that takes two arrays and insert the second array in the middle of the first array.</h1>
+    <script>
+        function insertInMiddle(arr1, arr2){
+            let middlePosition = Math.floor(arr1.length / 2);
+
+            return arr1.slice(0, middlePosition).concat(arr2,arr1.slice(middlePosition));
+        }
+
+        console.log(insertInMiddle([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]));
+        console.log(insertInMiddle([15,150], [45, 75, 35]));
+        console.log(insertInMiddle([[1, 2], [5, 6]], [[3, 4]]));
+    </script>
+    
+</body>
+</html>

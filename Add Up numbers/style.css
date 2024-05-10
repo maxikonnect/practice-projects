@@ -1,0 +1,29 @@
+/* Set box-sizing for all elements to border-box */
+html {
+    box-sizing: border-box;
+}
+
+/* Inherit box-sizing for all elements, including ::before and ::after pseudo-elements */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Define styles for the body */
+body {
+    font-size: 10px; /* Set base font size to 10px */
+    width: 100%; /* Make sure body takes full width */
+    text-align: center; /* Center align text */
+    margin-top: 30px; /* Add space on top */
+}
+
+/* Define styles for h1 elements */
+h1 {
+    font-size: 3rem; /* Set font size for h1 */
+}
+
+/* Define styles for li elements */
+li {
+    font-size: 2rem; /* Set font size for list items */
+}
